@@ -506,7 +506,18 @@ width: 100%;
     display: flex;
     justify-content: flex-end;
 }
+.footer-form-title{
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.footer-form{
+    display: flex;
+    gap: 24px;
 
+}
 .footer-input {
     border: 1px solid #fff;
     border-radius: 4px;
@@ -544,6 +555,7 @@ width: 100%;
     background: #4d5ae5;
     border: none;
     margin-left: 24px;
+   
 }
 
 .footer-btn-icon {
@@ -568,6 +580,10 @@ width: 408px;
 min-height: 584px;
 background-color: #fcfcfc;
 border-radius: 4px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+
 }
 
 .modal-close-btn {
@@ -623,6 +639,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-input:hover,
@@ -718,6 +735,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #fff;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .modal-btn:hover,
